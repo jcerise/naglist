@@ -33,6 +33,12 @@ gem 'bootstrap-sass'
 # Devise for user authentication
 gem 'devise'
 
+# Twilio gem, for sending and recieving SMS messages
+gem 'twilio-ruby'
+
+# Rails config, for configuration management
+gem 'rails_config'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
