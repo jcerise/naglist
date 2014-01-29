@@ -1,5 +1,6 @@
 Naglist::Application.routes.draw do
 
+  devise_for :users
   get '/', to: "main#home"
   get '/about', to: 'main#about'
   get '/help', to: 'main#help'

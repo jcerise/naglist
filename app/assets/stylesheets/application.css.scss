@@ -17,3 +17,16 @@
  body {
  	padding: 40px;
  }
+
+ p.alert {
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+p.alert-error {
+    background: #F08080;
+  }
+p.alert-notice {
+    background: #90EE90;
+}
